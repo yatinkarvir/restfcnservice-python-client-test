@@ -83,7 +83,7 @@ if __name__ == "__main__":
         name="REST Function Service Python Client",
         version="26.1",
         author="MathWorks",
-        license="license.txt located in this repository",
+        license="LICENSE.txt located in this repository",
         url="https://github.com/yatinkavir/restfcnservice-python-client-test",
         long_description=long_description,
         long_description_content_type="text/markdown",
