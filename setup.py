@@ -84,7 +84,7 @@ if __name__ == "__main__":
         version="26.1",
         author="MathWorks",
         license="LICENSE.txt located in this repository",
-        url="https://github.com/yatinkavir/restfcnservice-python-client-test",
+        url="https://github.com/yatinkarvir/restfcnservice-python-client-test",
         long_description=long_description,
         long_description_content_type="text/markdown",
         package_dir={"": "src"},
@@ -93,7 +93,7 @@ if __name__ == "__main__":
         package_data={'': ['_arch.txt']},
         zip_safe=False,
         project_urls={
-            "Source": "https://github.com/yatinkavir/restfcnservice-python-client-test"
+            "Source": "https://github.com/yatinkarvir/restfcnservice-python-client-test"
         },
         keywords=["MATLAB", "REST Function Service"],
         classifiers=[
