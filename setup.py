@@ -80,7 +80,7 @@ if __name__ == "__main__":
         long_description = readme.read()
 
     setup(
-        name="REST Function Service Python Client",
+        name="matlab-restfcnservice-client",
         version="26.1",
         author="MathWorks",
         license="LICENSE.txt located in this repository",
