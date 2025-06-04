@@ -28,7 +28,7 @@ jobs:
       
     - name: Publish package to TestPyPI since the "prerelease" checkbox is checked
       if: "github.event.release.prerelease"
-      uses: pypa/gh-action-pypi-publish@553bd2a0-d93f-4309-a665-c256a4d05e80
+      uses: pypa/gh-action-pypi-publish@3654833a1de83fa67a210823e4ef61ecd6935d92
       with:
         user: __token__
         password: ${{ secrets.TEST_PYPI_API_TOKEN }}
@@ -36,7 +36,7 @@ jobs:
         
     - name: Publish package to PyPI since the "prerelease" checkbox is unchecked
       if: "!github.event.release.prerelease"
-      uses: pypa/gh-action-pypi-publish@553bd2a0-d93f-4309-a665-c256a4d05e80
+      uses: pypa/gh-action-pypi-publish@3654833a1de83fa67a210823e4ef61ecd6935d92
       with:
         user: __token__
         password: ${{ secrets.TEST_PYPI_API_TOKEN }}
