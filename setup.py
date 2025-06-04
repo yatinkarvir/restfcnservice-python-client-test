@@ -98,7 +98,7 @@ if __name__ == "__main__":
         keywords=["MATLAB", "REST Function Service"],
         classifiers=[
             "Natural Language :: English",
-            "Intended Audience :: Developers"
+            "Intended Audience :: Developers",
             "Programming Language :: Python :: 3.9",
             "Programming Language :: Python :: 3.10",
             "Programming Language :: Python :: 3.11",
