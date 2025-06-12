@@ -100,7 +100,7 @@ if __name__ == "__main__":
             "Natural Language :: English",
             "Intended Audience :: Developers",
             "Programming Language :: Python :: 3.9",
-            "Programming Language :: Python :: 3.10",
+            "Programming Language :: Python :: 3.10", 
             "Programming Language :: Python :: 3.11",
             "Programming Language :: Python :: 3.12"
         ],
